@@ -24,7 +24,7 @@ public class AlbumListActivity extends BaseActivity {
     }
 
     private void initView(){
-        initNavBar(true, "专辑列表", false);
+        initNavBar(true, "专", false);
 
         mRvList = fd(R.id.rv_list);
         mRvList.setLayoutManager(new LinearLayoutManager(this));
